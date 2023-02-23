@@ -1,0 +1,106 @@
+[
+  {
+    "name": "WebDev",
+    "title": "PHP dan Laravel",
+    "description": "Saya Menggunakan PHP Laravel untuk mengembangkan APIs dengan keamanan yang baik, dana system yang aman",
+    "link": "https://php.net",
+    "img": "web.png",
+    "tags": [
+      "PHP",
+      "Laravel",
+      "Web"
+    ]
+  },
+  {
+    "name": "Database",
+    "title": "MySQL dan PostgreSQL",
+    "description": "MySQL adalah Sistem Manajemen Basis Data Relasional (RDBMS) yang populer dan open-source.",
+    "link": "/",
+    "img": "database.png",
+    "tags": [
+      "MySQL",
+      "Postgre",
+      "Database"
+    ]
+  },
+  {
+    "name": "Mobile Development",
+    "title": "Java dan Kotlin",
+    "description": "Sebagai Mobile Development saya biasa menggunakan Java dan Kotlin ysng terbilang powerful",
+    "link": "https://id.wikipedia.org/wiki/Kotlin_(bahasa_pemrograman)",
+    "img": "android.png",
+    "tags": [
+      "Android",
+      "Java",
+      "Kotlin"
+    ]
+  },
+  {
+    "name": "Automation dan AI",
+    "title": "Python",
+    "description": "Python is a high-level, general-purpose programming language",
+    "link": "",
+    "img": "python.png",
+    "tags": [
+      "Python",
+      "AI",
+      "ML"
+    ]
+  },
+  {
+    "name": "IDE",
+    "title": "Integrated Development Environment",
+    "description": "Saya terbiasa menggunakan terminal dan neovim/vim sebagai text editor, dan Juga Android Studio untuk Android Development",
+    "link": "",
+    "img": "ide.png",
+    "tags": [
+      "Neovim",
+      "Android Studio",
+      "IDE"
+    ]
+  },
+  {
+    "name": "Operation System",
+    "title": "Linux (Arch Linux)",
+    "description": "Pinguin adalah Sistem Operasi OpenSource bernama GNU Linux, saya terbiasa menggunakan linux sebagai OS primary",
+    "link": "https://www.linux.org",
+    "img": "os.png",
+    "tags": [
+      "Linux",
+      "Arch Linux"
+    ]
+  },
+  {
+    "name": "Html5",
+    "title": "HTML 5",
+    "description": "Hypertext Markup Language adalah bahasa markah standar untuk dokumen yang dirancang untuk ditampilkan di peramban internet",
+    "link": "",
+    "img": "html.png",
+    "tags": [
+      "HTML",
+      "Browser"
+    ]
+  },
+  {
+    "name": "Reverse Engineering",
+    "title": "C/C++",
+    "description": "Cpp atau C++ bahasa yang saya gunakan untuk mempelajari Reverse Engineering",
+    "link": "https://cplusplus.com",
+    "img": "cpp.png",
+    "tags": [
+      "C",
+      "C++"
+    ]
+  },
+  {
+    "name": "Git",
+    "title": "Git Version Control",
+    "description": "Git adalah perangkat lunak pengendali versi atau proyek manajemen kode perangkat lunak yang diciptakan oleh Linus Torvald.",
+    "link": "https://git-scm.com",
+    "img": "git.png",
+    "tags": [
+      "Git",
+      "Version Control"
+    ]
+  }
+]
