@@ -203,11 +203,11 @@ button,input,select,textarea{
     }
 }
 :root{
-    --bg-main:#3e4346;
-    --bg-active:#313538;
-    --btn-solid:#1d2022;
+    --bg-main:#E23E57;
+    --bg-active:#88304E;
+    --btn-solid:#00ADB5;
     --bg-tabs:#505558;
-    --icon-black:#060a0d;
+    --icon-black:#88304E;
     --title:#e8ecef;
     --meta:#b4b6b8;
     --subtitle:#aeb3b7;

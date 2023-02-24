@@ -1,4 +1,5 @@
 import { Link } from 'gatsby'
+import { StaticImage } from 'gatsby-plugin-image'
 import * as React from 'react'
 import Image from './Image'
 import { Portofolio } from './Portofolio'
@@ -14,15 +15,12 @@ const Pages = ({ url, alt, src, isActive }) => {
       className="tabs-module--tab">
       <div className='tabs-module--icon'>
         <Image
-          aria-hidden={true}
+          size={24}
           src={src}
-          alt={alt}>
-          <div
-            aria-hidden="true"
-            style={{ width: "100%", paddingBottom: "100%" }} />
-        </Image>
+          alt={alt}
+        />
       </div>
-    </Link>
+    </Link >
   )
 }
 const Page = ({ url, alt, src, isActive }) => {
@@ -33,14 +31,13 @@ const Page = ({ url, alt, src, isActive }) => {
         style={StyleButton}
         className="tabs-module--tab">
         <div className='tabs-module--icon'>
-          <Image
-            aria-hidden={true}
-            src={src}
-            alt={alt}>
-            <div
-              aria-hidden="true"
-              style={{ width: "100%", paddingBottom: "100%" }} />
-          </Image>
+          <StaticImage
+            src="../images/Portfolio.png"
+            alt="A dinosaur"
+            layout="fixed"
+            width={24}
+            height={24}
+          />
         </div>
       </a>
     )
@@ -69,7 +66,7 @@ export const Content = ({ active }) => {
     <>
       <div className='layout-module--content'>
         <div className='tabs-module--tabs'>
-          <Pages url="/" alt="Blog" src="Blog.png" isActive={active == "blog"} />
+          <Pages url="/" alt="Blog" src="icons/stack.png" isActive={active == "/"} />
           <Pages url="/pencapaian" alt="Achievment" src="Achievment.png" isActive={active == "pencapaian"} />
           <Pages url="/portofolio" alt="Portofolio" src="Portfolio.png" isActive={active == "portofolio"} />
           <Pages url="/portofolio" alt="Portofolio" src="Portfolio.png" isActive={active == "portofolio"} />

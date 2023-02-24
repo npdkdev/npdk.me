@@ -12,7 +12,7 @@ const Image = ({ src, ...rest }) => {
         extension
         publicURL
         childImageSharp {
-          gatsbyImageData(width: 256, formats: [AUTO,WEBP], placeholder: NONE)
+          gatsbyImageData(width: 256, formats: [WEBP], placeholder: NONE)
         }
       }
     }
