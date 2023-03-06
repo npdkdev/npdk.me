@@ -8,18 +8,27 @@ require('dotenv').config({
   path: `.env.${process.env.NODE_ENV}`,
 });
 module.exports = {
+  trailingSlash: "never",
   siteMetadata: {
     title: config.defaultTitle,
     description: config.defaultDescription,
     author: config.author,
+    siteUrl: config.url,
   },
   plugins: [
-    "gatsby-plugin-styled-components",
+    // "gatsby-plugin-styled-components",
     "gatsby-plugin-image",
     "gatsby-plugin-sitemap",
     "gatsby-plugin-postcss",
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: '4opf46zqtkkb',
+        accessToken: 'n0KQGXpFHDdZuaFbvBES6mq5E8q2PxtgtgQC8SZPkUs',
+      },
+    },
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
@@ -29,7 +38,7 @@ module.exports = {
         background_color: config.backgroundColor,
         theme_color: config.themeColor,
         display: 'minimal-ui',
-        "icon": "src/images/icon.png"
+        "icon": "src/images/logo.svg"
       }
     }, {
       resolve: 'gatsby-source-filesystem',

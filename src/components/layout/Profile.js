@@ -1,5 +1,7 @@
-import * as React from 'react'
-import Image from '../Image'
+import { GatsbyImage } from 'gatsby-plugin-image'
+import React, { useMemo } from 'react';
+import { graphql, useStaticQuery } from 'gatsby';
+import Image from '../../helper/Image';
 
 const SocialButtons = () => {
   return (
@@ -8,14 +10,13 @@ const SocialButtons = () => {
         target="_blank"
         rel="noreferrer"
         className="Intro-module--icon">
-
         <Image
-          aria-hidden={true}
+          // aria-hidden={true}
           src="GitHub.png"
           alt="Github Page">
-          <div
-            aria-hidden="true"
-            style={{ width: "100%", paddingBottom: "100%" }} />
+          {/* <div */}
+          {/*   aria-hidden="true" */}
+          {/*   style={{ width: "100%", paddingBottom: "100%" }} /> */}
         </Image>
       </a>
       <a href="https://instagram.com/nppddkk"
@@ -24,12 +25,12 @@ const SocialButtons = () => {
         className="Intro-module--icon">
 
         <Image
-          aria-hidden={true}
+          // aria-hidden={true}
           src="Instagram.png"
           alt="Instagram Page">
-          <div
-            aria-hidden="true"
-            style={{ width: "100%", paddingBottom: "100%" }} />
+          {/* <div */}
+          {/*   aria-hidden="true" */}
+          {/*   style={{ width: "100%", paddingBottom: "100%" }} /> */}
         </Image>
       </a>
       <a href="https://youtube.com/"
@@ -38,12 +39,12 @@ const SocialButtons = () => {
         className="Intro-module--icon">
 
         <Image
-          aria-hidden={true}
+          // aria-hidden={true}
           src="YouTube.png"
           alt="YouTube Page">
-          <div
-            aria-hidden="true"
-            style={{ width: "100%", paddingBottom: "100%" }} />
+          {/* <div */}
+          {/*   aria-hidden="true" */}
+          {/*   style={{ width: "100%", paddingBottom: "100%" }} /> */}
         </Image>
       </a>
     </>
@@ -58,9 +59,9 @@ export const Profile = () => {
             src="itsme.png"
             alt="Profile Image"
           >
-            <div
-              aria-hidden="true"
-              style={{ width: "100%", paddingBottom: "100%" }} />
+            {/* <div */}
+            {/*   aria-hidden="true" */}
+            {/*   style={{ width: "100%", paddingBottom: "100%" }} /> */}
           </Image>
         </a>
         <div className="Intro-module--socials">

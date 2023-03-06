@@ -1,9 +1,12 @@
 import * as React from "react"
 import { Intro } from "./Intro"
 import { Content } from "./Content"
-import '../styles/styles.css'
+import Config from '../../config'
+import { SEO as Seo } from './Head'
 
-const Main = ({ page }) => {
+export default function Main(props) {
+  const prop = props.props
+  const page = props.page
   return (
     <>
       <div className="layout-module--layout">
@@ -13,5 +16,7 @@ const Main = ({ page }) => {
     </>
   )
 }
+export const Head = () => {
+  return <Seo title="test" />
+}
 
-export default Main

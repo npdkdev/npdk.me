@@ -1,0 +1,55 @@
+{
+  "data": {},
+  "content": [
+    {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "marks": [],
+          "value": "ini tulisan nya",
+          "nodeType": "text"
+        }
+      ],
+      "nodeType": "paragraph"
+    },
+    {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "marks": [],
+          "value": "ini contoh image",
+          "nodeType": "text"
+        }
+      ],
+      "nodeType": "paragraph"
+    },
+    {
+      "data": {
+        "target": {
+          "sys": {
+            "id": "7hjcFIFeOh4Vqp3h4HKnrt",
+            "type": "Link",
+            "linkType": "Asset"
+          }
+        }
+      },
+      "content": [],
+      "nodeType": "embedded-asset-block"
+    },
+    {
+      "data": {},
+      "content": [
+        {
+          "data": {},
+          "marks": [],
+          "value": "huhu",
+          "nodeType": "text"
+        }
+      ],
+      "nodeType": "paragraph"
+    }
+  ],
+  "nodeType": "document"
+}

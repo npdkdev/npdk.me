@@ -8,7 +8,7 @@
     font-size:24px;
     font-weight:700;
     text-decoration:none;
-    color:var(--title)
+    color:var(--head-title)
 }
 .Intro-module--profile{
     display:flex;
@@ -121,7 +121,7 @@
 .tabs-module--tabs{
     background:var(--bg-tabs);
     display:grid;
-    grid-template-columns:repeat(4,1fr);
+    grid-template-columns:repeat(5,1fr);
     align-items:center;
     border-radius:28px;
     padding:6px;
@@ -202,22 +202,23 @@ button,input,select,textarea{
         scroll-behavior:auto!important
     }
 }
-:root{
-    --bg-main:#E23E57;
-    --bg-active:#88304E;
-    --btn-solid:#00ADB5;
-    --bg-tabs:#505558;
-    --icon-black:#88304E;
-    --title:#e8ecef;
-    --meta:#b4b6b8;
-    --subtitle:#aeb3b7;
-    --btn-border:#4e5356;
-    --btn-text:#676c6f;
-    --icon-white:#c6c7cb;
-    --initial-padding:24px;
-    --medium-padding:3rem;
-    --large-padding:2rem;
-    --card-round-image:12px
+:root {
+    --bg-main: #ED8D8D;
+    --bg-active: #c07272;
+    --btn-solid: #b96161;
+    --bg-tabs: #fca9a9;
+    --icon-black: #924a4a;
+    --head-title: #393232;
+    --title: #393232;
+    --meta: #4D4545;
+    --subtitle: #4D4545;
+    --btn-border: #8D6262;
+    --btn-text: #ffb8b8;
+    --icon-white: #1d1919;
+    --initial-padding: 24px;
+    --medium-padding: 3rem;
+    --large-padding: 2rem;
+    --card-round-image: 12px;
 }
 body{
     font-family:Poppins,sans-serif;
@@ -237,7 +238,7 @@ body{
     }
 }
 .layout-module--content,.layout-module--layout{
-    display:grid
+    display:grid;
 }
 .layout-module--layout{
     row-gap:2.5rem
@@ -247,6 +248,10 @@ body{
         grid-template-columns:1fr 2fr;
         column-gap:3rem
     }
+    .layout-module--content {
+      display: grid;
+      align-items: start;
+  }
 }
 .card-module--card{
     display:grid;
@@ -672,6 +677,9 @@ body{
     }
 }
 @media screen and (min-width:1024px){
+    .blog-template-module--nav{
+      display: none;
+    }
     .blog-template-module--post{
         grid-template-columns:1fr 2fr;
         grid-template-rows:1;

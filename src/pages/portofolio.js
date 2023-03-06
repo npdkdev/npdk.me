@@ -9,4 +9,3 @@ const PortofolioPage = () => {
 
 export default PortofolioPage
 
-export const Head = () => <title>Pencapaian</title>

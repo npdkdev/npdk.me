@@ -1,12 +1,14 @@
 import * as React from "react"
 import Main from '../components/Main'
-
-const IndexPage = () => {
+import { SEO as Seo } from '../components/Head'
+const IndexPage = (props) => {
+  // console.log(props)
   return (
-    <Main page="blog" />
+    <Main page="main" props={props} />
   )
 }
-
+export const Head = () => {
+  return <Seo title="test" />
+}
 export default IndexPage
 
-export const Head = () => <title>Tet</title>

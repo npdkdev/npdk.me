@@ -9,4 +9,3 @@ const PencapaianPage = () => {
 
 export default PencapaianPage
 
-export const Head = () => <title>Pencapaian</title>
