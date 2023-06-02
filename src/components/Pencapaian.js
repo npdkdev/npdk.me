@@ -31,8 +31,8 @@ export const Pencapaian = () => {
   return (
     <>
       <div className='achievment-module--achievment'>
-        <ListPencapaian data={data} />
-        <ListPencapaian data={data} />
+        <h2 style={{ textAlign: "top center" }}> soon!!</h2>
+        {/* <ListPencapaian data={data} /> */}
       </div>
     </>
   )

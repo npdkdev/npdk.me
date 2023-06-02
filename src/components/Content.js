@@ -40,14 +40,11 @@ export const Content = ({ active }) => {
           <Pages url="/portofolio" alt="Portofolio" src="Portfolio.png" />
           <Pages url="/skill" alt="Stack" src="icons/stack-overflow.png" />
         </div>
-        <Blogs />
-        <Blogs />
-        <Blogs />
-        {/* {active === "/" || active === "main" && <About />} */}
-        {/* {active === "blog" && <Blogs />} */}
-        {/* {active === "pencapaian" && <Pencapaian />} */}
-        {/* {active === "portofolio" && <Stacks />} */}
-        {/* {active === "skill" && <Stacks />} */}
+        {active === "/" || active === "main" && <About />}
+        {active === "blog" && <Blogs />}
+        {active === "pencapaian" && <Pencapaian />}
+        {active === "portofolio" && <Stacks />}
+        {active === "skill" && <Stacks />}
 
       </div>
     </>
